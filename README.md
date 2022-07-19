@@ -123,9 +123,9 @@ I ran the analysis from both SQL and Spark for practice.
 
 In order to explore bias in the dataset I want to Analyze the Vine Table by filtering the data by paid and unpaid reviews.
 
-![vine_analysis](/Resources/Images/vine_analysis.jpg)
-![vine_paid](/Resources/Images/vine_paid.jpg)
-![vine_unpaid](/Resources/Images/vine_unpaid.jpg)
+![vine_analysis](/Resources/Images/vine_analysis.jpg)  
+![vine_paid](/Resources/Images/vine_paid.jpg)  
+![vine_unpaid](/Resources/Images/vine_unpaid.jpg)  
 
 Vine program contributes about 1000 reviews compared to the almost 50000 reviews from unpaid reviewers.  
 42% of the paid reviews were 5 stars.
