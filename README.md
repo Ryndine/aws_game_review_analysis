@@ -116,4 +116,18 @@ vine_df.write.jdbc(url=jdbc_url, table='vine_table', mode=mode, properties=confi
 ```
 
 **Analysis**
-- Explore data for bias
+
+I ran the analysis from both SQL and Spark for practice.
+- [SQL File](https://github.com/Ryndine/aws_game_review_analysis/blob/main/sql_amazon_review_analysis.sql)
+- [Spark File](https://github.com/Ryndine/aws_game_review_analysis/blob/main/spark_aws_amazon_review_analysis.ipynb)
+
+In order to explore bias in the dataset I want to Analyze the Vine Table by filtering the data by paid and unpaid reviews.
+
+![vine_analysis](/Resources/Images/vine_analysis.jpg)
+![vine_paid](/Resources/Images/vine_paid.jpg)
+![vine_unpaid](/Resources/Images/vine_unpaid.jpg)
+
+Vine program contributes about 1000 reviews compared to the almost 50000 reviews from unpaid reviewers.  
+42% of the paid reviews were 5 stars.
+46% of the unpaid reviews were 5 stars.
+I believe these are within acceptable range to declare no bias in the dataset.
