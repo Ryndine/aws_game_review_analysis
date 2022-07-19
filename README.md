@@ -128,6 +128,6 @@ In order to explore bias in the dataset I want to Analyze the Vine Table by filt
 ![vine_unpaid](/Resources/Images/vine_unpaid.jpg)  
 
 Vine program contributes about 1000 reviews compared to the almost 50000 reviews from unpaid reviewers.  
-42% of the paid reviews were 5 stars.
-46% of the unpaid reviews were 5 stars.
+42% of the paid reviews were 5 stars.  
+46% of the unpaid reviews were 5 stars.  
 I believe these are within acceptable range to declare no bias in the dataset.
