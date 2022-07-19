@@ -1,4 +1,4 @@
-# Amazon Game Reviews Analysis
+# Amazon Game Review Bias
 
 ## Objective: 
 Utilize cloud tools to create database, storage, and run analysis on amazon reviews.
